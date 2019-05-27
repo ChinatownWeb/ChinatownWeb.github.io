@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<!--THE PASSWORD IS: 3456-->
+	<head>
+		<meta charset = "utf-8">
+		<title>Awoo~tard</title>
+	<style>
+	
+	body {
+		background: black;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		font-family: helvetica;
+	}
+	
+	h1 {
+		color: pink;
+	}
+	
+	input {
+		text-align:center;
+		padding: 10px;
+	}
+
+	input[type="submit"] {
+		background: white;
+	}
+	</style>
+	</head>
+	<body>
+	
+		<h1>You should read this page if you want a password</h1>
+
+		<label for="guessField"></label><input type="text" placeholder="password" class="guessField" id="guessField">
+		<input type="submit" class="guessSubmit">
+
+	<script>
+	
+	var guessSubmit = document.querySelector('.guessSubmit');
+	var guessField = document.querySelector('.guessField');
+	
+	function enterNickname() {
+	var nickname = Number(guessField.value);
+	if (nickname === 3456)  {
+	document.location.href = "Awoo~tard2.html";
+	}
+	}	
+	
+	guessSubmit.addEventListener('click', enterNickname);
+	
+	</script>	
+		
+	</script>	
+	</body>
+</html>

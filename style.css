@@ -1,0 +1,39 @@
+body {
+	background: black;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	font-family: helvetica;
+}
+
+div {
+	background: pink;
+}
+
+.form {
+
+}
+
+h1 {
+	color: black;
+	background-color: pink;
+	border: 1px solid pink;
+}
+
+p {
+	color: pink;
+}
+
+a {
+	color: pink;
+}
+
+input {
+	text-align:center;
+	padding: 10px;
+}
+
+input[type="submit"] {
+	background: white;
+}
+

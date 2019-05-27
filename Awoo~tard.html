@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Awoo~tard</title>
+	<style>
+	body {
+		background: url(https://i.imgur.com/6Bp1uTv.png);
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		font-family: helvetica;
+	}
+	
+	h1 {
+		background: black;
+		color: pink;
+	}
+	
+	input {
+		text-align:center;
+		padding: 10px;
+	}
+
+	input[type="submit"] {
+		background: white;
+	}
+	
+	</style>
+	</head>
+	<body>
+	
+		<h1>Anime will give u the answer</h1>
+		
+		<br>
+	
+		<label for="guessField"></label><input type="text" placeholder="password" class="guessField" id="guessField">
+		<input type="submit" class="guessSubmit">
+
+	<script>
+	
+	var guessSubmit = document.querySelector('.guessSubmit');
+	var guessField = document.querySelector('.guessField');
+	
+	function enterNickname() {
+	var nickname = Number(guessField.value);
+	if (nickname === 5938)  {
+	document.location.href = "Awoo~tard1.html";
+	}
+	}	
+	
+	guessSubmit.addEventListener('click', enterNickname);
+	
+	</script>	
+	</body>
+</html>

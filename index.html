@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Chinatown</title>
+		<link rel = "stylesheet" href="style.css">
+	</head>
+	<body>
+  
+		<h1>Chinatown</h1>
+	
+		<div><Strong>Enter ur nickname:</Strong></div>
+	
+		<br>
+	
+		
+		<label for="guessField"></label><input type="text" placeholder="nickname" class="guessField" id="guessField">
+		<input type="submit" class="guessSubmit">
+		
+		<br>
+	
+		<br>
+	
+		<img src="https://i.imgur.com/RExWXdg.jpg" width="800" height="550">
+		
+		<p>This place blessed by rootyasha:3</p>
+		
+		<!--<a href="YoungXikka.html" target="_blank" title="YoungXikka">YoungXikka<a/><br>
+		<a href="Awoo~tard.html" target="_blank" title="Awoo-tard">Awoo-tard</a><br>-->
+		<!--<a href="javascript.html" target="_blank" title="javascript">javascript</a><br>
+		<a href="robot.html" target="_blank" title="robot">css robot</a><br>-->
+		
+	<script>
+	
+	var guessSubmit = document.querySelector('.guessSubmit');
+	var guessField = document.querySelector('.guessField');
+	
+	function enterNickname() {
+	
+	var nickname = guessField.value;
+	
+	if (nickname === 'Awotard' || nickname === 'awotard')  {
+	document.location.href = "Awoo~tard.html";
+	}
+	else if (nickname === 'YoungXikka' || nickname === 'youngxikka') {
+	document.location.href = "YoungXikka.html";
+	}
+	else if (nickname === 'Larivell' || nickname === 'larivell' || nickname === 'Larivel' || nickname === 'larivel') {
+	document.location.href = "Larivell.html"
+	}
+	else if (nickname === 'dj.pumpkin' || nickname === 'djpumpkin' || nickname === 'Dj.pumpkin' || nickname === 'Djpumpkin') {
+	document.location.href = "Djpumpkin.html"
+	}
+	
+	}	
+	
+	guessSubmit.addEventListener('click', enterNickname);
+	
+	</script>
+		
+	</body>
+</html>

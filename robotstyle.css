@@ -1,0 +1,13 @@
+body {
+	background: url("https://i.imgur.com/0fJQQaA.jpg");
+}
+
+div {
+	height: 150px;
+	width: 300px;
+	background: yellow;
+}
+
+.foot {
+	background: orange;
+}

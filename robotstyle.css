@@ -1,13 +1,46 @@
 body {
-	background: url("https://i.imgur.com/0fJQQaA.jpg");
+	background: black;
 }
 
 div {
-	height: 150px;
-	width: 300px;
-	background: yellow;
+	height: 200px;
+	width: 400px;
+	margin: 0 auto;
+	background: green;
+}
+
+.beep {
+	height: 80px;
+	width: 30px;
+	background: #FF01EC;
+
+}
+
+.brain {
+	height: 200px;
+	width: 200px;
+	background: radial-gradient(circle, red 15%, transparent 40%), green;
+	background-size: 50% 100%;
+	border-radius: 80px;
+}
+
+.torso {
+	height: 400px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+.poyas {
+	height: 55px;
+	width: 400px;
+	background: radial-gradient(circle, yellow 15%, transparent 40%), brown;
+	background-size: 10% 100%;
+	border-radius: 30px;
 }
 
 .foot {
-	background: orange;
+  background: radial-gradient(circle, brown 65%, transparent 10%), #000000;
+  background-size: 50% 100%;
 }
+
+

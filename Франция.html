@@ -13,33 +13,30 @@
 		}
 		p {
 			color: black;
-			background: white;
 		}
-		.qwe {
-			background: #6AD2EB;
+		.mainText {
+			background: white;
+			color:black;
+			border: 4px double black;
 		}
 		</style>
 	</head>
 	<body>
   
-		<h1>Добро пожаловать</h1>
-	
-		<h1><Strong>В туристическую компанию "КРОЛЬ":)<Strong></h1>
-		
-		<p>Введите интересующую вас страну: </p>
+		<h1>Доступные маршруты:</h1>
 	
 		<br>
 	
-		
-		<label for="guessField"></label><input type="text" class="guessField" id="guessField">
-		<input type="submit" class="guessSubmit">
-		
-		<p class="qwe">*Доступные страны: Турция, Франция, Россия, Италия, Испания </p>
-		
+		<p><div class="mainText">Эту страну будет справедливо назвать жемчужиной Европы. Туры во Францию являются самыми интересными и насыщенными. С подлинно французским шармом эта страна очарует и увлечет вас. Во Франции расположены невероятные музеи и дворцы, комфортабельные отели, шикарные парки и бульвары, и прочие достопримечательности. Это страна для романтиков и ценителей старины, ведь здесь на каждом шагу оживает дух прежних времен. Фото и отзывы о турах во Францию свидетельствуют – сюда имеет смысл приезжать снова и снова. В рамках одного путешествия невозможно охватить богатейшие культурные, исторические, архитектурные и кулинарные сокровища страны. 
 
+Выбирая время для тура во Францию, совмещайте отдых с познавательным времяпровождением. Винные, сырные, литературные, цветочные фестивали, праздник жареных каштанов, бал в Ницце – в любое время года здесь найдется утонченное развлечение. 
+
+Виза: Для посещения страны гражданам РФ необходима виза.</p>
+		<p>Париж->Дижон->Лион->Авиньон->Марсель->Каркассон->Нант->Париж</div></p>
+		<p>Цена: 30 065р.</p>
 		<br>
 	
-		<img src="https://i.imgur.com/r5JSRsK.jpg[/img]" width="958" height="678">
+		<br>
 
 		
 	<script>
@@ -84,22 +81,11 @@
 	else if (nickname === 'race') {
 	document.location.href = "race.html"
 	}
-	else if (nickname === 'Турция' || nickname === 'турция') {
+	else if (nickname === 'Турция') {
 	document.location.href = "Турция.html"
 	}
-	else if (nickname === 'Испания' || nickname === 'испания') {
-	document.location.href = "Испания.html"
 	}	
-	else if (nickname === 'Италия' || nickname === 'италия') {
-	document.location.href = "Италия.html"
-	}	
-	else if (nickname === 'Франция' || nickname === 'франция') {
-	document.location.href = "Франция.html"
-	}	
-	else if (nickname === 'Россия' || nickname === 'россия') {
-	document.location.href = "Россия.html"
-	}	
-	}
+
 	guessSubmit.addEventListener('click', enterNickname);
 	
 	</script>

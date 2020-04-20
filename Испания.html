@@ -13,33 +13,30 @@
 		}
 		p {
 			color: black;
-			background: white;
 		}
-		.qwe {
-			background: #6AD2EB;
+		.mainText {
+			background: white;
+			color:black;
+			border: 4px double black;
 		}
 		</style>
 	</head>
 	<body>
   
-		<h1>Добро пожаловать</h1>
-	
-		<h1><Strong>В туристическую компанию "КРОЛЬ":)<Strong></h1>
-		
-		<p>Введите интересующую вас страну: </p>
+		<h1>Доступные маршруты:</h1>
 	
 		<br>
 	
-		
-		<label for="guessField"></label><input type="text" class="guessField" id="guessField">
-		<input type="submit" class="guessSubmit">
-		
-		<p class="qwe">*Доступные страны: Турция, Франция, Россия, Италия, Испания </p>
-		
+		<p><div class="mainText">Поездка в Испанию — это встреча с солнцем, с хорошей кухней, с гостеприимством и радостью жизни, но кроме того, это и возможность отрыть для себя ее богатейшее достояние — памятники, следы различных цивилизаций, которые сохранились под небом Испании. Это также возможность ознакомиться с обычаями ее народов и принять участие в традиционных народных празднествах и гуляниях; а также насладиться ее непревзойденной и ослепительной природой, прекрасными и разнообразными пейзажами. 
 
+Основная часть испанской территории находится на Пиренейском полуострове, а остальную занимают расположенные к востоку от него Балеарские острова и Канарские острова, лежащие на расстоянии более тысячи километров к югу, напротив африканского побережья. Испании также принадлежат города Сеута и Мелилья, расположенные на севере Африки.
+
+Виза: Для посещения страны гражданам РФ необходима виза.</p>
+		<p>Барселона->Валенсия->Аликанте->Толедо->Мадрид</div></p>
+		<p>Цена: 25 065р.</p>
 		<br>
 	
-		<img src="https://i.imgur.com/r5JSRsK.jpg[/img]" width="958" height="678">
+		<br>
 
 		
 	<script>
@@ -84,22 +81,11 @@
 	else if (nickname === 'race') {
 	document.location.href = "race.html"
 	}
-	else if (nickname === 'Турция' || nickname === 'турция') {
+	else if (nickname === 'Турция') {
 	document.location.href = "Турция.html"
 	}
-	else if (nickname === 'Испания' || nickname === 'испания') {
-	document.location.href = "Испания.html"
 	}	
-	else if (nickname === 'Италия' || nickname === 'италия') {
-	document.location.href = "Италия.html"
-	}	
-	else if (nickname === 'Франция' || nickname === 'франция') {
-	document.location.href = "Франция.html"
-	}	
-	else if (nickname === 'Россия' || nickname === 'россия') {
-	document.location.href = "Россия.html"
-	}	
-	}
+
 	guessSubmit.addEventListener('click', enterNickname);
 	
 	</script>

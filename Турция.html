@@ -19,6 +19,10 @@
 			color:black;
 			border: 4px double black;
 		}
+		input {
+			width: 150px;
+			height: 50px;
+		}
 		</style>
 	</head>
 	<body>
@@ -38,52 +42,14 @@
 	
 		<br>
 
-		
+
+		<input value="Назад" type="submit" class="guessSubmit">
 	<script>
 	
-	var guessSubmit = document.querySelector('.guessSubmit');
-	var guessField = document.querySelector('.guessField');
-	
 	function enterNickname() {
-	
-	var nickname = guessField.value;
-	
-	if (nickname === 'Awotard' || nickname === 'awotard')  {
-	document.location.href = "Awoo~tard.html";
-	}
-	else if (nickname === 'YoungXukka' || nickname === 'youngxukka') {
-	document.location.href = "YoungXukka.html";
-	}
-	else if (nickname === 'Larivell' || nickname === 'larivell' || nickname === 'Larivel' || nickname === 'larivel' || nickname === 'LariVell') {
-	document.location.href = "Larivell.html"
-	}
-	else if (nickname === 'dj.pumpkin' || nickname === 'djpumpkin' || nickname === 'Dj.pumpkin' || nickname === 'Djpumpkin') {
-	document.location.href = "Djpumpkin.html"
-	}
-	else if (nickname ==='Crazy' || nickname === 'crazy') {
-	document.location.href = "Crazy.html"
-	}
-	else if (nickname === 'Racer790' || nickname === 'racer790' || nickname === 'racer' || nickname === 'Racer') {
-	document.location.href = "Racer790.html"
-	}
-	else if (nickname === 'dred' || nickname === 'Dred' || nickname === 'dredddddd' || nickname === 'Dredddddd') {
-	document.location.href = "Dred.html"
-	}
-	else if (nickname === 'mrspektr' || nickname === 'Mrspektr' || nickname === 'MrSpektr' || nickname === 'Spektr' || nickname === 'spektr') {
-	document.location.href = "Spektr.html"
-	}
-	else if (nickname === 'Qiline' || nickname === 'qiline') {
-	document.location.href = "Qiline.html"
-	}
-	else if (nickname === 'Krossifer' || nickname === 'krossifer' || nickname === 'KrosSifer' || nickname === 'krosSifer') {
-	document.location.href = "Krossifer.html"
-	}
-	else if (nickname === 'race') {
-	document.location.href = "race.html"
-	}
-	else if (nickname === 'Турция') {
-	document.location.href = "Турция.html"
-	}
+
+	document.location.href = "index.html";
+
 	}	
 
 	guessSubmit.addEventListener('click', enterNickname);
